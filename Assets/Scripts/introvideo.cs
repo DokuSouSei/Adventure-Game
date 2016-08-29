@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class introvideo : MonoBehaviour
 {
-
     MovieTexture mt;
     RectTransform rt;
     Vector2 origPos;
@@ -24,9 +23,17 @@ public class introvideo : MonoBehaviour
 
     void Update()
     {
-        if(!mt.isPlaying)
+        if (!mt.isPlaying)
         {
-            SceneManager.LoadScene("Menu");
+            LoadMenu();
         }
+        else if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            LoadMenu();
+        }
+    }
+    void LoadMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }
