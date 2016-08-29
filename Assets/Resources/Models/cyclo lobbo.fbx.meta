@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 7302ba16547db0a46ba58203af4c52ff
+timeCreated: 1470317195
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm.l
+    100002: arm.r
+    100004: arm2.l
+    100006: arm2.r
+    100008: Armature
+    100010: body
+    100012: //RootNode
+    100014: Group45032
+    100016: head
+    100018: head_end
+    100020: leg
+    100022: leg.001
+    100024: leg.002
+    100026: leg.002_end
+    100028: leg.003
+    100030: leg.004
+    100032: leg.005
+    100034: leg.005_end
+    100036: leg.006
+    100038: leg.007
+    100040: leg.008
+    100042: leg.008_end
+    100044: leg.009
+    100046: leg.010
+    100048: leg.011
+    100050: leg.011_end
+    100052: leg.012
+    100054: leg.013
+    100056: leg.014
+    100058: leg.014_end
+    100060: leg.015
+    100062: leg.016
+    100064: leg.017
+    100066: leg.017_end
+    100068: legconnector
+    100070: legconnector.001
+    100072: pincher1.l
+    100074: pincher1.l_end
+    100076: pincher1.r
+    100078: pincher1.r_end
+    100080: pincher2.l
+    100082: pincher2.l_end
+    100084: pincher2.r
+    100086: pincher2.r_end
+    100088: tail
+    100090: tail1
+    100092: tail1_end
+    100094: tail2
+    100096: tail2_end
+    100098: tail3
+    100100: tail3_end
+    100102: tummy
+    400000: arm.l
+    400002: arm.r
+    400004: arm2.l
+    400006: arm2.r
+    400008: Armature
+    400010: body
+    400012: //RootNode
+    400014: Group45032
+    400016: head
+    400018: head_end
+    400020: leg
+    400022: leg.001
+    400024: leg.002
+    400026: leg.002_end
+    400028: leg.003
+    400030: leg.004
+    400032: leg.005
+    400034: leg.005_end
+    400036: leg.006
+    400038: leg.007
+    400040: leg.008
+    400042: leg.008_end
+    400044: leg.009
+    400046: leg.010
+    400048: leg.011
+    400050: leg.011_end
+    400052: leg.012
+    400054: leg.013
+    400056: leg.014
+    400058: leg.014_end
+    400060: leg.015
+    400062: leg.016
+    400064: leg.017
+    400066: leg.017_end
+    400068: legconnector
+    400070: legconnector.001
+    400072: pincher1.l
+    400074: pincher1.l_end
+    400076: pincher1.r
+    400078: pincher1.r_end
+    400080: pincher2.l
+    400082: pincher2.l_end
+    400084: pincher2.r
+    400086: pincher2.r_end
+    400088: tail
+    400090: tail1
+    400092: tail1_end
+    400094: tail2
+    400096: tail2_end
+    400098: tail3
+    400100: tail3_end
+    400102: tummy
+    4300000: Group45032
+    7400000: Armature|ArmatureAction
+    9500000: //RootNode
+    13700000: Group45032
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
