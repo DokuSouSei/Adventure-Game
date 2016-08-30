@@ -7,6 +7,7 @@ public class levelgenerator2 : MonoBehaviour {
     public GameObject StartPiece;
     public GameObject EndPiece;
     public bool isLevelLoaded = false;
+    //Ints to store random numbers
     int rand1;
     int rand2;
     int rand3;
@@ -17,7 +18,10 @@ public class levelgenerator2 : MonoBehaviour {
     int rand8;
     int rand9;
     int rand10;
+
     void Start () {
+
+        //generating random numbers
         rand1 = Random.Range(0, piece.Length);
         rand2 = Random.Range(0, piece.Length);
         rand3 = Random.Range(0, piece.Length);
@@ -28,6 +32,8 @@ public class levelgenerator2 : MonoBehaviour {
         rand8 = Random.Range(0, piece.Length);
         rand9 = Random.Range(0, piece.Length);
         rand10 = Random.Range(0, piece.Length);
+
+        //instiantate a piece to a position using generated number to select piece to the preset position
         Instantiate(StartPiece, new Vector3(0, 0, 0), Quaternion.identity);
         Instantiate(piece[rand2], new Vector3(20, 0, 0), Quaternion.identity);
         Instantiate(piece[rand3], new Vector3(40, 0, 0), Quaternion.identity);
